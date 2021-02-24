@@ -1,0 +1,25 @@
+.mb-1 { margin-bottom: .5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 2rem; }
+.mb-4 { margin-bottom: 4rem; }
+.mb-5 { margin-bottom: 6rem; }
+
+
+/* OVERLAY SCROLLBAR */
+.overlay-scrollbar::-webkit-scrollbar {
+    width: 16px;
+    overflow: visible;
+}
+
+.overlay-scrollbar::-webkit-scrollbar-thumb {
+    background: #FFFFFF30;
+    background-clip: padding-box;
+    border: solid transparent;
+    border-width: 6px;
+    padding: 100px 0 0 0;
+}
+
+.overlay-scrollbar::-webkit-scrollbar-button {
+    height: 0;
+    width: 0;
+}

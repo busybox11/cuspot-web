@@ -1,0 +1,71 @@
+#sidebar {
+    background: #111111;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-header {
+    padding: 1rem 1.25rem .5rem 1.25rem;
+}
+
+.sb-nav, .sb-section-music-list {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+.sb-nav > li {
+    padding: 0 1.25rem;
+    margin: 1rem 0; 
+    box-sizing: border-box;
+    position: relative;
+}
+
+.sb-nav-selected {
+    color: #1db954;
+}
+
+.sb-nav-selected:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: #1db954;
+    top: 0;
+    left: 0;
+}
+
+.sb-nav-link {
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.sb-nav-link-sel {
+    color: #1db954;
+}
+
+.sidebar-content {
+    height: 100%;
+    padding: 1rem 1.25rem;
+    overflow: overlay;
+    display: flex;
+    flex-direction: column;
+}
+
+.sb-section-music-label {
+    color: #DDDDDD;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 8px;
+}
+
+.sb-section-music-list {
+    margin-bottom: 2rem;
+}
+
+.sb-section-music-list > li {
+    margin-bottom: 8px;
+}

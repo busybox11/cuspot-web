@@ -1,0 +1,52 @@
+html, body {
+    background: #1A1A1A;
+    color: #FFFFFF;
+    font-family: Product Sans;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+
+    overflow: auto;
+}
+
+#app-header {
+    display: flex;
+    padding: 1rem 1.5rem;
+    align-items: center;
+}
+
+.g-searchbar {
+    background: #2A2A2A;
+    color: #FFFFFF;
+    border-radius: 9999px;
+    padding: .5rem 1rem;
+    margin-right: auto;
+    border: none;
+    width: 20rem;
+
+    transition: box-shadow .5s;
+}
+
+.g-searchbar:focus {
+    box-shadow: 0px 1px 4px 0px #03b70040;
+    outline: none;
+}
+
+.app-controls {
+    margin-left: 32px;
+    margin-right: .5rem;
+}
+
+.app-home-content {
+    padding: 2rem;
+}

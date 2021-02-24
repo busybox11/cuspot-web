@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>cuspot</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/nav.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/typo.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/utils.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div id="sidebar">
+        <div class="sidebar-header">
+            cuspot
+        </div>
+
+        <ul class="sb-nav">
+            <li class="sb-nav-selected"><a class="sb-nav-link sb-nav-link-sel" href="#">Home</a></li>
+            <li><a class="sb-nav-link" href="#">Library</a></li>
+            <li><a class="sb-nav-link" href="#">Radios</a></li>
+            <li><a class="sb-nav-link" href="#">Podcasts</a></li>
+        </ul>
+        
+        <div class="sidebar-content overlay-scrollbar">
+            <span class="sb-section-music-label">Discover</span>
+            <ul class="sb-section-music-list">
+                <li>Daily Mixes</li>
+                <li>Discover Weekly</li>
+                <li>Release Radar</li>
+                <li>Family Mix</li>
+            </ul>
+
+            <span class="sb-section-music-label">Your playlists</span>
+            <ul class="sb-section-music-list">
+                <li>Liked songs</li>
+                <li>Chill & play</li>
+                <li>Workout</li>
+                <li>that playlist</li>
+                <li>Cool and good</li>
+                <li>Your Top Songs 2020</li>
+                <li>Offline.</li>
+                <li>Good Old Songs</li>
+            </ul>
+        </div>
+    </div>
+    <div id="app">
+        <div id="app-header">
+            <input class="g-searchbar" placeholder="Search for artists, songs, podcasts...">
+
+            <div class="user-header">
+                <span class="muted">Spotify Premium - </span>busybox
+            </div>
+
+            <div class="app-controls">
+                x
+            </div>
+        </div>
+
+        <div class="app-home-content">
+            <div class="mb-3">
+                <h1>Welcome back</h1>
+                <h3 class="muted">Let's listen to some music.</h3>
+            </div>
+
+            <div id="recently-played" class="mb-3">
+                <h2>Recently played</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
