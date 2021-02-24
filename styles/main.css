@@ -34,10 +34,15 @@ body {
     border: none;
     width: 20rem;
 
-    transition: box-shadow .5s;
+    transition: background .25s, box-shadow .5s;
+}
+
+.g-searchbar:hover {
+    background: #2F2F2F;
 }
 
 .g-searchbar:focus {
+    background: #3A3A3A;
     box-shadow: 0px 1px 4px 0px #03b70040;
     outline: none;
 }

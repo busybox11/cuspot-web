@@ -58,6 +58,7 @@
 .sb-section-music-label {
     color: #DDDDDD;
     text-transform: uppercase;
+    font-size: .9rem;
     letter-spacing: 4px;
     margin-bottom: 8px;
 }
