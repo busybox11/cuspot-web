@@ -1,0 +1,36 @@
+body {
+	line-height: 1.2;
+	letter-spacing: 0;
+}
+
+@font-face {
+	font-family: Cantarell;
+	src: local("Cantarell"),
+			 url(Cantarell-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Cantarell;
+	src: local("Cantarell"),
+			 url(Cantarell-Bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Cantarell;
+	src: local("Cantarell"),
+			 url(Cantarell-BoldItalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Cantarell;
+	src: local("Cantarell"),
+			 url(Cantarell-Italic.ttf);
+	font-weight: normal;
+	font-style: italic;
+}
