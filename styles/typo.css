@@ -3,6 +3,18 @@ h1, h2, h3, h4, h5, h6 {
     margin-block-end: 0;
 }
 
-.muted {
+.text-small {
+	font-size: .8rem;
+}
+
+.text-muted {
     color: #FFFFFF80;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.line-height-small {
+	line-height: 1;
 }

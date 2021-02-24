@@ -3,12 +3,14 @@
 .mb-3 { margin-bottom: 2rem; }
 .mb-4 { margin-bottom: 4rem; }
 .mb-5 { margin-bottom: 6rem; }
+.mb-auto { margin-bottom: auto; }
 
 .mr-1 { margin-right: .5rem; }
 .mr-2 { margin-right: 1rem; }
 .mr-3 { margin-right: 2rem; }
 .mr-4 { margin-right: 4rem; }
 .mr-5 { margin-right: 6rem; }
+.mr-auto { margin-right: auto; }
 
 
 /* OVERLAY SCROLLBAR */

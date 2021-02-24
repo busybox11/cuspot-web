@@ -47,9 +47,22 @@ body {
     outline: none;
 }
 
+.user-header {
+    display: flex;
+}
+
+.user-header-profile-pic {
+    height: 32px;
+    border-radius: 100%;
+}
+
 .app-controls {
-    margin-left: 32px;
+    margin-left: 1rem;
     margin-right: .5rem;
+}
+
+.app-controls > i {
+    margin-left: 8px;
 }
 
 .app-home-content {
