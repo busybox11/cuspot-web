@@ -23,6 +23,13 @@ body {
     display: flex;
     padding: 1rem 1.5rem;
     align-items: center;
+
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+#app-header > * {
+    -webkit-app-region: no-drag;
 }
 
 .g-searchbar {

@@ -1,0 +1,24 @@
+{
+	"name": "cuspot-web",
+	"version": "1.0.0",
+	"description": "Custom Spotify client for the web (WIP)",
+	"main": "main.js",
+	"dependencies": {
+		"electron": "^12.0.2"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "electron ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/busybox11/cuspot-web.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/busybox11/cuspot-web/issues"
+	},
+	"homepage": "https://github.com/busybox11/cuspot-web#readme"
+}

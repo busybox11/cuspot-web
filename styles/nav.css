@@ -10,6 +10,13 @@
     align-items: center;
 
     padding: 1rem 1.25rem .5rem 1.25rem;
+
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+.sidebar-header > * {
+    -webkit-app-region: no-drag;
 }
 
 .sb-nav, .sb-section-music-list {
