@@ -21,14 +21,21 @@ body {
 
 #app-header {
     display: flex;
-    padding: 1rem 1.5rem;
-    align-items: center;
 
     -webkit-user-select: none;
     -webkit-app-region: drag;
 }
 
-#app-header > * {
+#app-header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    padding-right: 1rem;
+}
+
+#app-header-content > *,
+.app-controls {
     -webkit-app-region: no-drag;
 }
 
@@ -64,12 +71,21 @@ body {
 }
 
 .app-controls {
-    margin-left: 1rem;
-    margin-right: .5rem;
+    display: flex;
+    margin-bottom: auto;
 }
 
 .app-controls > i {
-    margin-left: 8px;
+    padding: 6px 16px;
+    transition: all .15s;
+}
+
+.app-controls > i:hover {
+    background: #FFFFFF33;
+}
+
+#app-close:hover {
+    background: #ff0000;
 }
 
 .app-home-content {
